@@ -244,35 +244,35 @@
 <tbody>
   <tr>
     <td>Nombre</td>
-    <td></td>
+    <td>Becker Junior</td>
   </tr>
   <tr>
     <td>Apellidos</td>
-    <td></td>
+    <td>Caysahuana Osores</td>
   </tr>
   <tr>
     <td>Edad</td>
-    <td></td>
+    <td>27</td>
   </tr>
   <tr>
     <td>Distrito</td>
-    <td></td>
+    <td>Surco</td>
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td></td>
+    <td><img src="sources/entrevista.jpeg" alt="Evidencia de la entrevista con Becker" width="250"></td>
   </tr>
   <tr>
     <td>Link</td>
-    <td></td>
+    <td><a href="AQUI_PONES_TU_LINK" target="_blank">Ver entrevista</a></td>
   </tr>
   <tr>
     <td>Duración</td>
-    <td></td>
+    <td>2:31</td>
   </tr>
   <tr>
     <td>Resumen</td>
-    <td></td>
+    <td>Becker es Jefe de Proyectos en una constructora. Actualmente, el seguimiento de indicadores ambientales (ruido, polvo) se hace de forma manual y la información está dispersa entre Excel, correos y WhatsApp, lo que dificulta su organización. La gestión actual es reactiva y depende de la detección humana oportuna. Becker considera que el uso de sensores y alertas automáticas sería muy útil para tomar medidas preventivas. Su principal sugerencia de mejora es centralizar toda la información (mediciones, alertas, evidencias) en una sola plataforma para reaccionar más rápido y mantener el orden ante cualquier supervisión.</td>
   </tr>
 </tbody>
 </table>
