@@ -191,47 +191,7 @@
 </tbody>
 </table>
 
-<table>
-<thead>
-  <tr>
-    <th colspan="2">Entrevista #2</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Nombre</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Apellidos</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Edad</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Distrito</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Evidencia</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Link</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Duración</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Resumen</td>
-    <td></td>
-  </tr>
-</tbody>
-</table>
+
 
 **Segmento 2:**
 
