@@ -421,6 +421,10 @@
 
 **Segmento 1**
 
+Para el Segmento 1 (Empresas Constructoras Viales - Módulo de Gestión de Obras) se elaboró el User Persona Carlos Mendoza. Se consideraron factores como su rol de Jefe de Proyectos Viales en una constructora de infraestructura, su experiencia coordinando múltiples frentes de obra en simultáneo y su responsabilidad directa en asegurar que los proyectos no sufran paralizaciones ni sanciones por incumplimiento de normativas ambientales (ECA/LMP). Sus principales frustraciones radican en la dispersión de la información (fotos en WhatsApp, reportes en Excel y correos sueltos), la falta de alertas tempranas ante sobrepasos de límites de polvo o ruido y la pesada carga administrativa de consolidar evidencias para responder a las observaciones de la supervisión. Carlos requiere una herramienta que centralice la telemetría en tiempo real, emita alertas telemáticas preventivas para actuar antes de que ocurra la falta y automatice la generación de reportes con datos inalterables.
+
+![User Persona - Carlos Mendoza](../assets/images/chapter2/CarlosMendoza.jpg)
+
 **Segmento 2**
 
 Para el Segmento 2 (Empresas Supervisoras Ambientales / Consultoras - Módulo de Fiscalización) se elaboró el User Persona Gisela Chavez. Se consideraron factores como su rol de Directora de Operaciones en una consultora ambiental, su vasta experiencia liderando auditorías y fiscalizaciones de proyectos de transporte a nivel nacional, y su necesidad de auditar el cumplimiento regulatorio de múltiples frentes de obra de forma transparente e imparcial. Sus principales frustraciones se relacionan con la falta de visibilidad centralizada por la dispersión de informes fragmentados provenientes de distintas constructoras, la pérdida de tiempo administrativo al navegar entre correos o reportes estáticos y la fricción que se genera al existir discrepancias de datos sobre posibles incumplimientos ambientales. Asimismo, se tomó en cuenta su alto nivel de competencias en gestión y planificación, y su necesidad de una plataforma SaaS que permita unificar los datos de cumplimiento en tiempo real, automatizar la generación de reportes oficiales respaldados por datos inalterables y priorizar la atención de auditorías mediante métricas claras de riesgo.
@@ -434,22 +438,40 @@ Para el Segmento 2 (Empresas Supervisoras Ambientales / Consultoras - Módulo de
 
 | Task | Frequency | Importance |
 |---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
+| Revisar el avance operativo y estado ambiental de los frentes de obra | Diario | Alta |
+| Coordinar acciones de mitigación e instrucciones de trabajo en campo | Diario | Alta |
+| Consolidar mediciones manuales y fotos enviadas por WhatsApp/Excel | Semanal | Media |
+| Responder a observaciones e incidencias notificadas por la supervisión | A demanda | Alta |
+| Monitorear el cumplimiento de los límites ambientales (ECA/LMP) | Diario | Alta |
+| Generar reportes e informes de cumplimiento ambiental para auditorías | Mensual | Alta |
+| Asignar responsables y dar seguimiento a tickets de corrección en campo | Semanal | Media |
 
 **Análisis**
 
-- 
+- **Alta dependencia de tareas reactivas:** Las actividades de mayor importancia, como responder a observaciones de la supervisión o atender desvíos normativos, actualmente se ejecutan bajo un esquema reactivo debido a la falta de alertas en tiempo real.
 
-- 
+- **Cuello de botella en la consolidación de datos:** La tarea semanal de unificar registros dispersos en Excel y WhatsApp genera una pérdida de tiempo operativa considerable para la jefatura de proyecto.
 
-- 
+- **Prioridad en la continuidad operativa:** La tarea más crítica para este perfil es evitar multas o paralizaciones de obra (MTC/OEFA), por lo que requiere herramientas que sistematicen la prevención diaria.
+
+**Segmento 2**
+
+| Task | Frequency | Importance |
+|---|---|---|
+| Auditar el cumplimiento regulatorio en múltiples proyectos en simultáneo | Diario | Alta |
+| Revisar informes de medición y evidencias enviadas por contratistas | Semanal | Alta |
+| Monitorear alertas de incumplimiento de límites normativos (ECA/LMP) | Diario | Alta |
+| Elaborar reportes consolidados de supervisión para entidades del Estado (MTC/SENACE) | Mensual | Alta |
+| Coordinar inspecciones de campo y verificar subsanaciones de incidencias | Quincenal | Media |
+| Priorizar proyectos con mayor nivel de riesgo regulatorio o ambiental | Semanal | Alta |
+
+**Análisis**
+
+- **Sobrecarga de trabajo administrativo:** La consolidación manual de expedientes provenientes de distintas constructoras absorbe la mayor parte del tiempo de la supervisión.
+
+- **Necesidad de visibilidad multisitio:** Se requiere un panel unificado que priorice automáticamente los proyectos críticos para enfocar las auditorías de forma eficiente.
+
+- **Exigencia de datos inalterables:** Para emitir reportes oficiales ante entidades fiscalizadoras, la precisión y trazabilidad de los datos de campo es una prioridad absoluta.
 
 **Segmento 2**
 
@@ -475,6 +497,12 @@ Para el Segmento 2 (Empresas Supervisoras Ambientales / Consultoras - Módulo de
 
 **Segmento 1**
 
+El recorrido de Carlos abarca una perspectiva operativa y de ejecución en campo, dividida en cinco fases: 1. Planificación del frente de obra y despliegue de equipos, 2. Monitoreo diario y registro de datos ambientales, 3. Detección de excedencias o riesgos de contaminación (polvo/ruido), 4. Ejecución de acciones de mitigación en terreno, y 5. Consolidación de evidencias para la supervisión y auditorías.
+
+El principal punto de dolor en el viaje de Carlos se identifica en las etapas 2 y 3. Al no contar con sensores telemáticos automáticos, el equipo depende de mediciones manuales puntuales y comunicaciones informales por WhatsApp. Esto provoca que las alertas de sobrepaso de límites lleguen cuando la falta ya ocurrió o cuando la supervisión ya emitió una sanción o suspensión de obra.
+
+![User Journey Map - Carlos Mendoza](../assets/images/chapter2/CarlosJourneyMap.jpg)
+
 **Segmento 2**
 
 El recorrido de Gisela abarca una perspectiva directiva y de fiscalización macro, dividida en: 1. Incorporación y onboarding de un nuevo proyecto vial a la cartera, 2. Supervisión periódica y seguimiento multisitio, 3. Solicitud de reportes de cumplimiento a las constructoras, y 4. Consolidación de informes oficiales para la gerencia y entidades de control (MTC/SENACE).
@@ -487,6 +515,10 @@ El mayor cuello de botella en el viaje de Gisela se concentra en las etapas 2 y 
 <a id="2-3-4-empathy-mapping"></a>
 
 **Segmento 1**
+
+En este mapa se analizó a Carlos Mendoza, Jefe de Proyectos Viales encargado de coordinar la ejecución y el cumplimiento de compromisos ambientales en múltiples tramos de carretera. Él piensa que la obra no se puede detener por una sanción y se siente frustrado al no saber qué ocurre exactamente en cada frente en tiempo real. Escucha exigencias constantes de la gerencia para no retrasar los plazos del proyecto, quejas del personal de campo por la carga administrativa y notificaciones de la supervisión solicitando sustentos inmediatos. En su entorno observa un flujo desordenado de información disperso entre grupos de WhatsApp, hojas de cálculo en Excel y fotografías sueltas en carpetas compartidas, además de maquinaria generando polvo o ruido cerca de zonas pobladas sin medición continua. Carlos suele expresar la necesidad de enterarse de los problemas ambientales antes de que la supervisión lo sancione y pide a su equipo mantener las fotos y reportes al día. Su dolor principal es la falta de visibilidad centralizada, la incapacidad de reaccionar preventivamente antes de superar los límites normativos y el tiempo perdido consolidando datos fragmentados; mientras que su ganancia esperada es disponer de un panel unificado para monitorear todos los tramos en tiempo real, recibir alertas telemáticas preventivas y contar con un historial de datos inalterables para responder a cualquier auditoría sin retrasos.
+
+![Empathy Map - Carlos Mendoza](../assets/images/chapter2/CarlosEmpathyMap.jpg)
 
 **Segmento 2**
 
