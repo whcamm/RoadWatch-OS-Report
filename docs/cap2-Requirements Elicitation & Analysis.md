@@ -528,6 +528,12 @@ Para el Segmento 2 (Empresas Supervisoras Ambientales / Consultoras - Módulo de
 
 **Segmento 1**
 
+El recorrido de Carlos Mendoza abarca una perspectiva operativa y de gestión ambiental en proyectos viales, dividida en: 1. Planificación del frente de obra y definición de límites normativos ambientales, 2. Registro diario de mediciones en campo, 3. Detección de alertas por posibles excedencias de ruido o polvo, 4. Ejecución de acciones correctivas o de mitigación, 5. Consolidación del reporte mensual, y 6. Auditoría y cierre ante la supervisión.
+
+El mayor cuello de botella en el viaje de Carlos se concentra en las etapas 2, 3 y 5. Debido a la dispersión de información en WhatsApp, Excel, fotos y reportes manuales, el registro de datos de campo no se realiza de forma centralizada ni en tiempo real. Esto dificulta detectar excedencias ambientales antes de que se conviertan en observaciones o sanciones, y además vuelve lenta la consolidación del expediente mensual. Como consecuencia, Carlos queda expuesto a demoras operativas, pérdida de trazabilidad y riesgo de multas o paralizaciones por falta de evidencia ordenada y oportuna.
+
+![User Journey Map - Carlos Mendoza](../assets/images/chapter2/CarlosJourneyMap.jpeg)
+
 **Segmento 2**
 
 El recorrido de Gisela abarca una perspectiva directiva y de fiscalización macro, dividida en: 1. Incorporación y onboarding de un nuevo proyecto vial a la cartera, 2. Supervisión periódica y seguimiento multisitio, 3. Solicitud de reportes de cumplimiento a las constructoras, y 4. Consolidación de informes oficiales para la gerencia y entidades de control (MTC/SENACE).
@@ -540,6 +546,8 @@ El mayor cuello de botella en el viaje de Gisela se concentra en las etapas 2 y 
 <a id="2-3-4-empathy-mapping"></a>
 
 **Segmento 1**
+
+
 
 **Segmento 2**
 
